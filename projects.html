@@ -28,27 +28,58 @@
               <th>Project Name</th>
               <th>Completed</th>
               <th>Date</th>
+              <th>Details</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Project 1</td>
+              <td>Deployement Automation(AWS)</td>
               <td>No</td>
-              <td>7/15/2025 - present</td>
+              <td>July 2025 - present</td>
+              <td><a href="#project1">See More</a></td>
+            </tr>
+            <tr>
+              <td>Song Recommender</td>
+              <td>Yes</td>
+              <td>March - May 2024</td>
+              <td><a href="#project2">See More</a></td>
             </tr>
           </tbody>
+          <tfoot>
+            <th colspan="3">Total:</th>
+            <td>2</td>
+          </tfoot>
         </table>
       </section>
 
-      <section>
-        <h2>Project 1</h2>
+      <section id="project1">
+        <h2>Deployement Automation</h2>
         <!-- Requirement-1.P -->
         <details>
           <!-- Requirement-1.Q -->
           <summary>What it Does</summary>
-          qiljwekljldkla;sdjflkasjdflksjdflksjldfkjslnvkndlks,x.kdxjfsldkfjsieljfslejfilsekfjsdkvmlskndvskldjfsldkfjs
+          This Terraform module automates the deployment of a serverless backend built on AWS. It uses AWS VPC, Lambda, Aurora Serverless, Eventbridge, and SSM.
+          I plan to create more modules and encompass more tech stacks in this project as I build it more.
         </details>
+        <details>
+          <summary>Why Make This</summary>
+          Automated infrastructure deployement and setup is a part of Computer Science that I am really interested in. I created this 
+          in case I would need to use it in the future for any other projects and so that I could learn more about IaC tools.
+        </details>
+      </section>
 
+      <section id="project2">
+        <h2>Song Recommender</h2>
+        <details>
+          <summary>What it does</summary>
+          This Kotlin app pulls from an SQLite database of 200k+ songs and asks you to rate whether you like them or not. Depending on how you answer the program 
+          will try to recommend other songs that you may like from the database based on parameters such as genre, era, etc... 
+        </details>
+        <details>
+          <summary>Why Make This</summary>
+          A good friend and I decided to make this application after watching a machine learning randomly one day in class. Though as high school students, we thought 
+          the actual ML part of this project would be too much, so we decided to try and derive a dumbed down statistical formula from what we learned through the videos.
+        </details>
       </section>
       
     </main>
